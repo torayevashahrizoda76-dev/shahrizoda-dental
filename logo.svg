@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 0 160 210" width="160" height="210">
+  <title>Shahrizoda Dental Studio</title>
+  <g color="#B88A4F">
+    <path d="M100 58 C90 38 40 38 40 78 C40 108 52 128 56 152 C58 172 62 192 72 194 C80 195 82 172 86 160 C90 150 96 146 100 146 C104 146 110 150 114 160 C118 172 120 195 128 194 C138 192 142 172 144 152 C148 128 160 108 160 78 C160 38 110 38 100 58 Z" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M120 64 C96 48 66 62 72 84 C78 104 124 100 130 124 C135 146 108 156 80 144" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round"/>
+    <path d="M82 34 L85 18 L93 26 L100 13 L107 26 L115 18 L118 34 Z" fill="currentColor"/>
+    <circle cx="85" cy="16" r="2.2" fill="currentColor"/>
+    <circle cx="100" cy="11" r="2.2" fill="currentColor"/>
+    <circle cx="115" cy="16" r="2.2" fill="currentColor"/>
+  </g>
+</svg>
