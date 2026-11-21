@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shahrizoda Dental Studio | Tabassum — bizning ilhomimiz</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top navbar-dental">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img src="images/logo.svg" alt="Logo" width="34" height="44">
+        <span class="logo-matn">Shahrizoda<small>Dental Studio</small></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menyu"
+        aria-controls="menyu" aria-expanded="false" aria-label="Menyuni ochish">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menyu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Bosh sahifa</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Xizmatlar</a>
+            <ul class="dropdown-menu">
+              <li>
+                <h6 class="dropdown-header">Yo'nalishlar</h6>
+              </li>
+              <li><a class="dropdown-item" href="xizmatlar.html#davolash">Davolash</a></li>
+              <li><a class="dropdown-item" href="xizmatlar.html#estetika">Estetika</a></li>
+              <li><a class="dropdown-item" href="xizmatlar.html#bolalar">Bolalar stomatologiyasi</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="xizmatlar.html">
+                  <i class="bi bi-table"></i> Narxlar jadvali</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="shifokorlar.html">Shifokorlar</a></li>
+          <li class="nav-item"><a class="nav-link" href="ertaklar.html">Tabassum ertaklari</a></li>
+          <li class="nav-item"><a class="nav-link" href="bilim.html">Bilim markazi</a></li>
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-gold" href="index.html#qabul" data-bs-toggle="tooltip" data-bs-placement="bottom"
+              data-bs-title="Birinchi ko'rik bepul!">
+              <i class="bi bi-calendar-check"></i> Qabulga yozilish
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="bosh">
+    <div id="slayder" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#slayder" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="1-slayd"></button>
+        <button type="button" data-bs-target="#slayder" data-bs-slide-to="1" aria-label="2-slayd"></button>
+        <button type="button" data-bs-target="#slayder" data-bs-slide-to="2" aria-label="3-slayd"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="images/slayd-1.svg" class="d-block w-100" alt="Tabassum">
+          <div class="carousel-caption text-start">
+            <h2 class="display-6">Tabassumingiz biz uchun muhim</h2>
+            <p>Zamonaviy stomatologiya va mehr bilan g'amxo'rlik.</p>
+            <a href="#qabul" class="btn btn-gold">Qabulga yozilish</a>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="images/slayd-2.svg" class="d-block w-100" alt="Estetika">
+          <div class="carousel-caption text-start">
+            <h2 class="display-6">Oqartirish va estetika</h2>
+            <p>Professional tozalash va tish oqartirish xizmatlari.</p>
+            <a href="xizmatlar.html#estetika" class="btn btn-gold">Narxlarni ko'rish</a>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="images/slayd-3.svg" class="d-block w-100" alt="Bolalar">
+          <div class="carousel-caption text-start">
+            <h2 class="display-6">Bolalar uchun do'stona muhit</h2>
+            <p>Kichkintoylar shifokordan qo'rqmaydigan klinika.</p>
+            <a href="shifokorlar.html" class="btn btn-gold">Shifokorlarimiz</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#slayder" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Oldingi</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#slayder" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Keyingi</span>
+      </button>
+    </div>
+  </section>
+  <section class="container text-center py-5" id="kirish">
+    <p class="text-uppercase text-sage fw-bold small mb-2">Shahrizoda Dental Studio</p>
+    <h1 class="display-4">Tabassumingiz biz uchun muhim</h1>
+    <p class="lead col-lg-8 mx-auto">Zamonaviy stomatologiya va mehr bilan g'amxo'rlik.
+      Har bir bemorga <strong>shaxsiy yondashuv</strong> va <mark>birinchi ko'rik bepul</mark>.</p>
+    <a href="#qabul" class="btn btn-gold btn-lg m-1"><i class="bi bi-calendar-check"></i> Qabulga yozilish</a>
+    <a href="xizmatlar.html" class="btn btn-outline-gold btn-lg m-1">Xizmatlar va narxlar</a>
+
+    <div class="row row-cols-2 row-cols-md-4 g-3 mt-4 ishonch">
+      <div class="col"><strong>Bepul</strong><span>birinchi ko'rik</span></div>
+      <div class="col"><strong>Steril</strong><span>bir martalik asboblar</span></div>
+      <div class="col"><strong>6 kun</strong><span>haftada ochiqmiz</span></div>
+      <div class="col"><strong>3 nafar</strong><span>tajribali shifokor</span></div>
+    </div>
+  </section>
+  <section class="bg-blush py-5" id="xizmatlar">
+    <div class="container">
+      <h2 class="text-center display-6">Xizmatlarimiz</h2>
+      <p class="text-center mb-4">Telefonda 1 ta, planshetda 2 ta, kompyuterda 3 ta ustun</p>
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 karta-xizmat">
+            <div class="card-body">
+              <i class="bi bi-clipboard2-pulse fs-1 text-sage"></i>
+              <h3 class="card-title h4 mt-2">Ko'rik va maslahat</h3>
+              <p class="card-text">Tishlar holatini tekshirib, davolash rejasini tuzamiz.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 d-flex justify-content-between align-items-center">
+              <span class="badge rounded-pill bg-light text-dark border">Bepul</span>
+              <a href="xizmatlar.html#davolash" class="link-sage fw-bold">Batafsil <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 karta-xizmat">
+            <div class="card-body">
+              <i class="bi bi-shield-plus fs-1 text-sage"></i>
+              <h3 class="card-title h4 mt-2">Plomba qo'yish</h3>
+              <p class="card-text">Karies bilan zararlangan tishni tozalab, zamonaviy plomba qo'yamiz.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 d-flex justify-content-between align-items-center">
+              <span class="badge rounded-pill bg-light text-dark border">120 000 so'mdan</span>
+              <a href="xizmatlar.html#davolash" class="link-sage fw-bold">Batafsil <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 karta-xizmat">
+            <div class="card-body">
+              <i class="bi bi-droplet fs-1 text-sage"></i>
+              <h3 class="card-title h4 mt-2">Professional tozalash</h3>
+              <p class="card-text">Tish toshi va dog'lardan tozalash, gigiyena bo'yicha maslahat.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 d-flex justify-content-between align-items-center">
+              <span class="badge rounded-pill bg-light text-dark border">250 000 so'm</span>
+              <a href="xizmatlar.html#estetika" class="link-sage fw-bold">Batafsil <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 karta-xizmat">
+            <div class="card-body">
+              <i class="bi bi-stars fs-1 text-sage"></i>
+              <h3 class="card-title h4 mt-2">Tish oqartirish</h3>
+              <p class="card-text">Tish emaliga zarar yetkazmasdan professional oqartirish.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 d-flex justify-content-between align-items-center">
+              <span class="badge rounded-pill bg-light text-dark border">900 000 so'm</span>
+              <a href="xizmatlar.html#estetika" class="link-sage fw-bold">Batafsil <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 karta-xizmat">
+            <div class="card-body">
+              <i class="bi bi-emoji-smile fs-1 text-sage"></i>
+              <h3 class="card-title h4 mt-2">Bolalar stomatologiyasi</h3>
+              <p class="card-text">Sut tishlarini qo'rquvsiz, o'yin shaklida davolash.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 d-flex justify-content-between align-items-center">
+              <span class="badge rounded-pill bg-light text-dark border">90 000 so'mdan</span>
+              <a href="xizmatlar.html#bolalar" class="link-sage fw-bold">Batafsil <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 karta-xizmat">
+            <div class="card-body">
+              <i class="bi bi-heart-pulse fs-1 text-sage"></i>
+              <h3 class="card-title h4 mt-2">Kanal davolash</h3>
+              <p class="card-text">Tish ildizi kanallarini zamonaviy usulda davolash.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 d-flex justify-content-between align-items-center">
+              <span class="badge rounded-pill bg-light text-dark border">350 000 so'mdan</span>
+              <a href="xizmatlar.html#davolash" class="link-sage fw-bold">Batafsil <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container py-5" id="tish-yuvish-video">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-9">
+        <div class="card border-0 shadow-sm rounded-4 p-3 bg-white">
+          <div class="ratio ratio-16x9 rounded-3 overflow-hidden bg-dark">
+            <video id="tishVideo" controls preload="metadata">
+              <source src="video/tish-yuvish.mp4" type="video/mp4">
+              Brauzeringiz videoni qo'llab-quvvatlamaydi.
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container py-5" id="qabul">
+    <h2 class="text-center display-6 mb-4">Qabulga yozilish</h2>
+    <div class="row g-4">
+      <div class="col-12 col-lg-4">
+        <div class="card h-100 border-success">
+          <div class="card-header bg-success text-white fw-bold">
+            <i class="bi bi-info-circle"></i> Ma'lumot
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><i class="bi bi-geo-alt text-sage"></i> Samarqand shahri</li>
+            <li class="list-group-item"><i class="bi bi-telephone text-sage"></i> +998 66 123 45 67</li>
+            <li class="list-group-item"><i class="bi bi-clock text-sage"></i> Dushanba–Shanba, 9:00–19:00</li>
+            <li class="list-group-item"><i class="bi bi-gift text-sage"></i> Birinchi ko'rik bepul</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-lg-8">
+        <form class="row g-3 needs-validation bg-white p-4 rounded-3 border" action="#" method="post" novalidate>
+          <div class="col-md-6">
+            <label for="ism" class="form-label">Ism va familiya</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text"><i class="bi bi-person"></i></span>
+              <input type="text" class="form-control" id="ism" name="ism" placeholder="Ismingiz" required>
+              <div class="invalid-feedback">Ismingizni kiriting</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="telefon" class="form-label">Telefon</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text"><i class="bi bi-telephone"></i></span>
+              <input type="tel" class="form-control" id="telefon" name="telefon" pattern="\+998[0-9]{9}"
+                placeholder="+998901234567" required>
+              <div class="invalid-feedback">Masalan: +998901234567</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="xizmat" class="form-label">Xizmat</label>
+            <select class="form-select" id="xizmat" name="xizmat" required>
+              <option value="">Xizmatni tanlang...</option>
+              <option>Ko'rik va maslahat</option>
+              <option>Plomba qo'yish</option>
+              <option>Professional tozalash</option>
+              <option>Tish oqartirish</option>
+              <option>Bolalar stomatologiyasi</option>
+            </select>
+            <div class="invalid-feedback">Xizmatni tanlang</div>
+          </div>
+          <div class="col-md-6">
+            <label for="sana" class="form-label">Qulay sana</label>
+            <input type="date" class="form-control" id="sana" name="sana" required>
+            <div class="invalid-feedback">Sanani tanlang</div>
+          </div>
+          <div class="col-md-6">
+            <span class="form-label d-block">Qulay vaqt</span>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="vaqt" id="v1" value="ertalab" checked>
+              <label class="form-check-label" for="v1">Ertalab</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="vaqt" id="v2" value="tushlik">
+              <label class="form-check-label" for="v2">Tushlikdan keyin</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="vaqt" id="v3" value="kechqurun">
+              <label class="form-check-label" for="v3">Kechqurun</label>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <span class="form-label d-block">Eslatma</span>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="sms" name="sms" checked>
+              <label class="form-check-label" for="sms">Qabuldan bir kun oldin SMS yuborilsin</label>
+            </div>
+          </div>
+          <div class="col-12">
+            <label for="izoh" class="form-label">Shikoyatingiz (ixtiyoriy)</label>
+            <textarea class="form-control" id="izoh" name="izoh" rows="3"
+              placeholder="Masalan: sovuq ichganda tish og'riydi"></textarea>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="rozi" required>
+              <label class="form-check-label" for="rozi">Ma'lumotlarim qayta ishlanishiga roziman</label>
+              <div class="invalid-feedback">Davom etish uchun rozilik bering</div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-gold btn-lg"><i class="bi bi-send"></i> Yuborish</button>
+            <button type="reset" class="btn btn-outline-secondary btn-lg">Tozalash</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="footer-dental pt-5 pb-4">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-md-4 text-center text-md-start">
+          <a class="d-inline-flex align-items-center gap-2 text-decoration-none" href="index.html">
+            <img src="images/logo.svg" alt="Logo" width="34" height="44">
+            <span class="logo-matn logo-oq">Shahrizoda<small>Dental Studio</small></span>
+          </a>
+          <p class="footer-shior mt-3 mb-0">Tabassum — bizning ilhomimiz</p>
+        </div>
+        <div class="col-6 col-md-4">
+          <h3 class="h5">Sahifalar</h3>
+          <ul class="list-unstyled small">
+            <li><a href="xizmatlar.html">Xizmatlar va narxlar</a></li>
+            <li><a href="shifokorlar.html">Shifokorlar</a></li>
+            <li><a href="ertaklar.html">Tabassum ertaklari</a></li>
+            <li><a href="bilim.html">Bilim markazi</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-4">
+          <h3 class="h5">Aloqa</h3>
+          <p class="small mb-1"><i class="bi bi-geo-alt"></i> Samarqand shahri</p>
+          <p class="small mb-1"><i class="bi bi-telephone"></i> <a href="tel:+998661234567">+998 66 123 45 67</a></p>
+          <p class="small mb-2"><i class="bi bi-clock"></i> Du–Sha: 9:00–19:00</p>
+          <a href="#" class="fs-4 me-2" data-bs-toggle="tooltip" data-bs-title="Telegram kanalimiz">
+            <i class="bi bi-telegram"></i></a>
+          <a href="#" class="fs-4" data-bs-toggle="tooltip" data-bs-title="Instagram sahifamiz">
+            <i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+      <p class="small text-center mt-4 mb-0 mualliflik">&copy; 2026 Shahrizoda Dental Studio. Barcha huquqlar
+        himoyalangan.</p>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    (function () {
+      const vid = document.getElementById("tishVideo");
+      if (!vid) return;
+      const FAQAT_UZ_OVOZ = false;
+      const musiqa = (function () {
+        const AC = window.AudioContext || window.webkitAudioContext;
+        let ctx = null, master = null, timer = null;
+        let keyingi = 0;
+        let yoqilgan = true;
+        let ovozBor = false;
+
+        const QADAM = 4; // har bir akkord 4 soniya
+        const akkordlar = [
+          [130.81, 261.63, 329.63, 392.00, 493.88], // Cmaj7
+          [110.00, 220.00, 261.63, 329.63, 392.00], // Am7
+          [87.31, 174.61, 220.00, 261.63, 329.63],  // Fmaj7
+          [98.00, 196.00, 246.94, 293.66, 392.00]   // G
+        ];
+        let akkordIdx = 0;
+
+        function nota(freq, t0, uzunlik, tepa, tur) {
+          const o = ctx.createOscillator();
+          const g = ctx.createGain();
+          o.type = tur || "sine";
+          o.frequency.value = freq;
+          g.gain.setValueAtTime(0.0001, t0);
+          g.gain.linearRampToValueAtTime(tepa, t0 + Math.min(1.2, uzunlik * 0.3));
+          g.gain.linearRampToValueAtTime(0.0001, t0 + uzunlik);
+          o.connect(g);
+          g.connect(master);
+          o.start(t0);
+          o.stop(t0 + uzunlik + 0.05);
+        }
+
+        function akkordChal(t0) {
+          const a = akkordlar[akkordIdx % akkordlar.length];
+          akkordIdx++;
+          // yumshoq fon (pad)
+          a.forEach(f => nota(f, t0, QADAM + 1.2, 0.07, "sine"));
+          // yengil arpedjio (yuqori notalar)
+          for (let k = 0; k < 8; k++) {
+            const f = a[1 + (k % 4)] * 2;
+            nota(f, t0 + k * 0.5, 1.4, 0.05, "triangle");
+          }
+        }
+
+        function rejala() {
+          if (!ctx) return;
+          while (keyingi < ctx.currentTime + 1.5) {
+            akkordChal(keyingi);
+            keyingi += QADAM;
+          }
+        }
+
+        function darajaniYangila() {
+          if (!ctx) return;
+          const nishon = !yoqilgan ? 0 : (ovozBor ? 0.10 : 0.30);
+          master.gain.setTargetAtTime(nishon, ctx.currentTime, 0.3);
+        }
+
+        return {
+          boshla() {
+            if (!AC) return;
+            if (!ctx) {
+              ctx = new AC();
+              master = ctx.createGain();
+              master.gain.value = 0;
+              master.connect(ctx.destination);
+              keyingi = ctx.currentTime + 0.1;
+            }
+            ctx.resume();
+            if (!timer) timer = setInterval(rejala, 300);
+            rejala();
+            darajaniYangila();
+          },
+          toxtat() { if (ctx) ctx.suspend(); },
+          qaytaBoshla() { akkordIdx = 0; if (ctx) keyingi = ctx.currentTime + 0.1; },
+          ovoz(bor) { ovozBor = bor; darajaniYangila(); },
+          almashtir() { yoqilgan = !yoqilgan; darajaniYangila(); return yoqilgan; }
+        };
+      })();
+      (function () {
+        const tugma = document.createElement("button");
+        tugma.type = "button";
+        tugma.className = "btn btn-sm btn-outline-secondary mt-2 w-100";
+        tugma.textContent = "🎵 Musiqa: yoqilgan";
+        tugma.addEventListener("click", () => {
+          const yoq = musiqa.almashtir();
+          tugma.textContent = yoq ? "🎵 Musiqa: yoqilgan" : "🔇 Musiqa: o'chirilgan";
+        });
+        vid.parentElement.insertAdjacentElement("afterend", tugma);
+      })();
+      const srtBloklar = [
+        { start: 0.3, end: 3.8, matn: "Tishlaringizni to'g'ri yuvishni bilasizmi? Shahrizoda Dental Studio maslahatlari." },
+        { start: 4.2, end: 7.8, matn: "Birinchi maslahat. Kuniga ikki marta, ikki daqiqadan yuving. Nonushtadan keyin, va uxlashdan oldin." },
+        { start: 8.2, end: 11.8, matn: "Ikkinchi maslahat. Yumshoq cho'tka va ftorli pasta tanlang. Cho'tkani qiya tutib, yumshoq harakat qiling." },
+        { start: 12.2, end: 15.8, matn: "Uchinchi maslahat. Tish orasini ip bilan tozalang. Cho'tka yetmagan joylar ham toza bo'lsin." },
+        { start: 16.2, end: 20.8, matn: "Va oxirgisi. Har olti oyda shifokor ko'rigiga keling. Sog'lom tabassum, Shahrizoda Dental Studio bilan." }
+      ];
+
+      const HOLD_OLDIN = 0.15;
+      let ovozlar = [];
+      let faolBlokIdx = -1;
+      let ovozTugadi = true;
+      let kutmoqda = false;
+      let rafId = null;
+      let xavfsizTimer = null;
+
+      function ovozlarniYukla() {
+        if ("speechSynthesis" in window) ovozlar = window.speechSynthesis.getVoices();
+      }
+      ovozlarniYukla();
+      if ("speechSynthesis" in window) {
+        window.speechSynthesis.addEventListener("voiceschanged", ovozlarniYukla);
+      }
+
+      function ovozniToxtat() {
+        clearTimeout(xavfsizTimer);
+        if ("speechSynthesis" in window) window.speechSynthesis.cancel();
+        musiqa.ovoz(false);
+      }
+
+      function davomEt() {
+        if (kutmoqda) {
+          kutmoqda = false;
+          const p = vid.play();
+          if (p && p.catch) p.catch(() => { });
+        }
+      }
+
+      function ovozTugadiBelgila() {
+        ovozTugadi = true;
+        clearTimeout(xavfsizTimer);
+        musiqa.ovoz(false);
+        davomEt();
+      }
+
+      function ovozOq(matn) {
+        ovozTugadi = false;
+        clearTimeout(xavfsizTimer);
+
+        if (!("speechSynthesis" in window)) { ovozTugadiBelgila(); return; }
+        window.speechSynthesis.cancel();
+
+        const uzOvoz = ovozlar.find(v => v.lang.toLowerCase().startsWith("uz"));
+        if (!uzOvoz && FAQAT_UZ_OVOZ) { ovozTugadiBelgila(); return; }
+
+        const utter = new SpeechSynthesisUtterance(matn);
+        const ovoz = uzOvoz
+          || ovozlar.find(v => v.lang.toLowerCase().startsWith("ru"))
+          || ovozlar[0];
+        if (ovoz) { utter.voice = ovoz; utter.lang = ovoz.lang; }
+        utter.rate = 1.0;
+        utter.pitch = 1;
+        utter.onstart = () => musiqa.ovoz(true);   // gapirganda musiqa pasayadi
+        utter.onend = ovozTugadiBelgila;
+        utter.onerror = ovozTugadiBelgila;
+        window.speechSynthesis.speak(utter);
+
+        xavfsizTimer = setTimeout(ovozTugadiBelgila, 15000);
+      }
+
+      function joriyBlokniTop(vaqt) {
+        for (let i = 0; i < srtBloklar.length; i++) {
+          if (vaqt >= srtBloklar[i].start && vaqt <= srtBloklar[i].end) return i;
+        }
+        return -1;
+      }
+
+      function tekshir() {
+        if (vid.paused || vid.ended) { rafId = null; return; }
+
+        const t = vid.currentTime;
+        const idx = joriyBlokniTop(t);
+
+        if (idx !== -1) {
+          if (idx !== faolBlokIdx) {
+            faolBlokIdx = idx;
+            ovozOq(srtBloklar[idx].matn);
+          }
+          if (!ovozTugadi && t >= srtBloklar[idx].end - HOLD_OLDIN) {
+            kutmoqda = true;
+            vid.pause();
+            return;
+          }
+        } else {
+          faolBlokIdx = -1;
+        }
+
+        rafId = requestAnimationFrame(tekshir);
+      }
+
+      function tekshirishniBoshla() {
+        if (rafId === null) rafId = requestAnimationFrame(tekshir);
+      }
+
+      vid.addEventListener("play", () => {
+        kutmoqda = false;
+        musiqa.boshla();
+        tekshirishniBoshla();
+      });
+
+      vid.addEventListener("playing", tekshirishniBoshla);
+
+      vid.addEventListener("pause", () => {
+        if (kutmoqda) return;   // biz o'zimiz to'xtatdik, ovoz va musiqa davom etadi
+        ovozniToxtat();
+        musiqa.toxtat();
+        ovozTugadi = true;
+        faolBlokIdx = -1;
+        rafId = null;
+      });
+
+      vid.addEventListener("seeked", () => {
+        ovozniToxtat();
+        kutmoqda = false;
+        ovozTugadi = true;
+        faolBlokIdx = -1;
+        if (!vid.paused) tekshirishniBoshla();
+      });
+
+      vid.addEventListener("ended", () => {
+        ovozniToxtat();
+        musiqa.toxtat();
+        musiqa.qaytaBoshla();
+        kutmoqda = false;
+        ovozTugadi = true;
+        faolBlokIdx = -1;
+        rafId = null;
+      });
+    })();
+  </script>
+</body>
+
+</html>

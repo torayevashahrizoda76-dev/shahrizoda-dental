@@ -1,0 +1,135 @@
+/* Shahrizoda Dental Studio – Bootstrap'ga qo'shimcha o'z CSS qoidalarimiz */
+
+/* Saytning ranglari (1-mustaqil ishdagi ranglar saqlandi) */
+:root {
+  --blush: #FBE6E0;
+  --blush-deep: #F4CFC6;
+  --cream: #FFF8F4;
+  --gold: #B88A4F;
+  --gold-dark: #8A5E34;
+  --sage: #5E7B5A;
+  --forest: #2F4A3A;
+  --line: #EBD3CA;
+}
+
+/* Sahifa foni, matn rangi va shrifti */
+body {
+  background-color: var(--cream);
+  color: #6B4A2B;
+  font-family: "Nunito Sans", Arial, sans-serif;
+}
+a { color: var(--sage); }
+a:hover { color: var(--forest); }
+
+/* Bootstrap 5.0.2 dagi ranglarni saytimiz ranglariga moslaymiz */
+.bg-success { background-color: var(--sage) !important; }      /* yashil -> sage */
+.border-success { border-color: var(--sage) !important; }
+.bg-warning { background-color: var(--gold) !important; }      /* sariq -> oltin */
+.border-warning { border-color: var(--gold) !important; }
+.border { border-color: var(--line) !important; }
+.card, .list-group-item { border-color: var(--line); }
+.table { border-color: var(--line); }
+.table > :not(:last-child) > :last-child > * { border-bottom-color: var(--line); }
+.form-check-input:checked { background-color: var(--sage); border-color: var(--sage); }
+.form-control:focus, .form-select:focus, .form-check-input:focus {
+  border-color: var(--gold);
+  box-shadow: 0 0 0 0.25rem rgba(184, 138, 79, 0.25);
+}
+.dropdown-item:active { background-color: var(--sage); }
+
+html { scroll-padding-top: 90px; }
+
+h1, h2, h3, .h1, .h2, .h3, .display-4, .display-5, .display-6 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 700;
+  color: var(--gold-dark);
+}
+
+/* Yordamchi rang klasslari */
+.bg-blush { background-color: var(--blush) !important; }
+.text-sage { color: var(--sage) !important; }
+.link-sage { color: var(--sage); text-decoration: none; }
+.link-sage:hover { color: var(--forest); }
+mark { background-color: var(--blush-deep); }
+
+/* O'zimizning tugmalar (Bootstrap'ning .btn klassi asosida) */
+.btn-gold {
+  color: #fff; background-color: var(--gold); border-color: var(--gold);
+  border-radius: 40px;
+}
+.btn-gold:hover, .btn-gold:focus, .btn-gold:active, .show > .btn-gold.dropdown-toggle {
+  color: #fff; background-color: var(--gold-dark); border-color: var(--gold-dark);
+}
+.btn-outline-gold {
+  color: var(--gold-dark); background-color: transparent; border-color: var(--gold);
+  border-radius: 40px;
+}
+.btn-outline-gold:hover, .btn-outline-gold:active, .show > .btn-outline-gold.dropdown-toggle {
+  color: #fff; background-color: var(--gold-dark); border-color: var(--gold-dark);
+}
+.btn-gold:focus, .btn-outline-gold:focus { box-shadow: 0 0 0 0.25rem rgba(184, 138, 79, 0.35); }
+.btn-group > .btn { border-radius: 40px; }
+.btn-group > .btn:not(:last-child) { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+.btn-group > .btn:not(:first-child) { border-top-left-radius: 0; border-bottom-left-radius: 0; }
+
+/* Menyu */
+.navbar-dental { background-color: rgba(255, 248, 244, .96); border-bottom: 1px solid var(--line); }
+.navbar-dental .navbar-nav .nav-link { font-weight: 600; color: var(--gold-dark); }
+.navbar-dental .navbar-nav .nav-link:hover,
+.navbar-dental .navbar-nav .nav-link.active { color: var(--sage); }
+.logo-matn {
+  display: flex; flex-direction: column; line-height: 1;
+  font-family: "Cormorant Garamond", Georgia, serif; font-weight: 700; font-size: 28px; color: var(--gold-dark);
+}
+.logo-matn small {
+  font-family: "Nunito Sans", Arial, sans-serif; font-size: 10px; font-weight: 700;
+  letter-spacing: 3px; text-transform: uppercase; color: var(--gold); margin-top: 4px;
+}
+.logo-oq { color: var(--blush); }
+
+/* 10-talab: slayder */
+#slayder .carousel-item img { height: 460px; object-fit: cover; }
+#slayder .carousel-caption { left: 13%; right: 42%; bottom: 22%; }
+#slayder .carousel-caption h2 { color: var(--gold-dark); }
+#slayder .carousel-caption p { color: var(--forest); font-size: 18px; }
+
+/* Ishonch paneli */
+.ishonch .col strong { display: block; font-family: "Cormorant Garamond", Georgia, serif; font-size: 30px; color: var(--gold-dark); }
+.ishonch .col span { font-size: 14px; }
+.ishonch .col { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 16px 8px; }
+
+/* Xizmat kartalari */
+.karta-xizmat { border-top: 3px solid var(--gold); border-radius: 4px 4px 16px 16px; transition: transform .25s; }
+.karta-xizmat:hover { transform: translateY(-5px); }
+
+/* Shifokor avatari (rasm o'rniga bosh harflar) */
+.avatar {
+  width: 120px; height: 120px; display: grid; place-items: center;
+  background: var(--blush); border: 2px solid var(--gold); color: var(--gold);
+  font-family: "Cormorant Garamond", Georgia, serif; font-size: 44px; font-weight: 700;
+}
+
+/* Konteynerli menyu va accordion ranglari */
+.nav-tabs .nav-link { color: var(--gold-dark); font-weight: 600; }
+.nav-tabs .nav-link.active { color: var(--sage); }
+.accordion-button:not(.collapsed) { color: var(--forest); background-color: var(--blush); }
+
+/* Hikoyalar */
+.hikoya .blockquote p { font-style: italic; }
+
+/* Chaqiriq va footer */
+.cta { background-color: var(--forest); }
+.cta h2, .cta p { color: var(--blush); }
+.footer-dental { background-color: var(--forest); color: var(--blush); }
+.footer-dental h3 { color: var(--blush); font-family: "Nunito Sans", Arial, sans-serif; }
+.footer-dental a { color: var(--blush); }
+.footer-dental .mualliflik { opacity: 0.75; }
+.footer-shior { font-family: "Cormorant Garamond", Georgia, serif; font-style: italic; font-size: 22px; }
+
+/* 1-talab: telefon ekranlari uchun */
+@media (max-width: 767.98px) {
+  #slayder .carousel-item img { height: 300px; }
+  #slayder .carousel-caption { left: 14%; right: 14%; bottom: 14%; }
+  #slayder .carousel-caption p { display: none; }
+  .logo-matn { font-size: 22px; }
+}
